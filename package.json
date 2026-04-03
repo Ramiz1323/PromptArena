@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "name": "project10-promptarena",
+  "version": "1.0.0",
+  "description": "PromptArena is a web application that allows users to create, share, and explore writing prompts. It provides a platform for writers to find inspiration and connect with other writers.",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.27.7",
+    "express": "^5.2.1",
+    "get-tsconfig": "^4.13.7",
+    "resolve-pkg-maps": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "tsx server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramiz1323/PromptArena.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ramiz1323/PromptArena/issues"
+  },
+  "homepage": "https://github.com/Ramiz1323/PromptArena#readme"
+}
