@@ -9,6 +9,9 @@
   "description": "PromptArena is a web application that allows users to create, share, and explore writing prompts. It provides a platform for writers to find inspiration and connect with other writers.",
   "main": "index.js",
   "dependencies": {
+    "@langchain/core": "^1.1.39",
+    "@langchain/google": "^0.1.10",
+    "dotenv": "^17.4.0",
     "esbuild": "^0.27.7",
     "express": "^5.2.1",
     "get-tsconfig": "^4.13.7",
@@ -16,7 +19,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "tsx server.ts"
+    "dev": "tsx server.ts"
   },
   "repository": {
     "type": "git",
