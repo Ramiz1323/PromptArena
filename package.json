@@ -9,8 +9,12 @@
   "description": "PromptArena is a web application that allows users to create, share, and explore writing prompts. It provides a platform for writers to find inspiration and connect with other writers.",
   "main": "index.js",
   "dependencies": {
+    "@langchain/cohere": "^1.0.4",
     "@langchain/core": "^1.1.39",
     "@langchain/google": "^0.1.10",
+    "@langchain/langgraph": "^1.2.8",
+    "@langchain/mistralai": "^1.0.7",
+    "@langchain/openai": "^1.4.3",
     "dotenv": "^17.4.0",
     "esbuild": "^0.27.7",
     "express": "^5.2.1",
