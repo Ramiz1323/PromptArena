@@ -1,6 +1,6 @@
 import { ChatGoogle } from "@langchain/google";
 import { ChatMistralAI } from "@langchain/mistralai";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatGroq } from "@langchain/groq";
 import config from "../config/config.js";
 
 export const geminiModel = new ChatGoogle({
@@ -13,7 +13,7 @@ export const mistralModel = new ChatMistralAI({
     model: "mistral-medium-latest"
 })
 
-export const openaiModel = new ChatOpenAI({
-    apiKey: config.OPENAI_API_KEY,
-    model: "gpt-4o"
+export const groqModel = new ChatGroq({
+    apiKey: config.GROQ_API_KEY,
+    model: "llama3-8b-8192"
 })
